@@ -1,9 +1,9 @@
 import streamlit as st
-
+println("hello from python ")
 st.write('Hello')
 import pandas as pd
 
-println("hello from python ")
+
 import pyodbc
 
 import plotly.express as px
