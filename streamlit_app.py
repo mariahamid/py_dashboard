@@ -1,5 +1,5 @@
 import streamlit as st
-println("hello from python ")
+print("hello from python ")
 st.write('Hello')
 import pandas as pd
 st.write('after pandas')
