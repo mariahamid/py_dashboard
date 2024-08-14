@@ -1,13 +1,16 @@
 import streamlit as st
 
 st.write('Hello')
-import pyodbc
 import pandas as pd
+
+println("hello from python ")
+import pyodbc
+
 import plotly.express as px
 from dash import Dash, dcc, html, dash_table
 from dash.dependencies import Input, Output
 
-println("hello from python ")
+
 
 # Creating a connection string
 connection_string = ("DRIVER={SQL Server};SERVER=Sana\\MSSQLSERVER01;DATABASE=Test;Trusted_Connection=yes;")
