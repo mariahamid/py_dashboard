@@ -15,7 +15,7 @@ import pyodbc
 
 
 # Creating a connection string
-connection_string = ("DRIVER={SQL Server};SERVER=Sana\\MSSQLSERVER01;DATABASE=Test;Trusted_Connection=yes;")
+connection_string = ("Driver={ODBC Driver 18 for SQL Server};Server=tcp:maria3159.database.windows.net,1433;Database=maria;Uid=maria;Pwd={Sana@3159};Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;")
 
 # Declare PYODBC connection with the string
 cnxn = pyodbc.connect(connection_string)
