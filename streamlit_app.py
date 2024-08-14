@@ -1,3 +1,5 @@
+
+!pip install plotly
 import streamlit as st
 print("hello from python ")
 st.write('Hello')
