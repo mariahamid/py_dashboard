@@ -1,7 +1,6 @@
 
-!pip install plotly
 import streamlit as st
-print("hello from python ")
+
 st.write('Hello')
 import pandas as pd
 import plotly.express as px
